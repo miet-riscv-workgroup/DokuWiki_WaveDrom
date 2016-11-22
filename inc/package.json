@@ -1,0 +1,47 @@
+{
+  "name": "wavedrom",
+  "version": "1.4.1",
+  "description": "Digital timing diagram in your browser",
+  "homepage": "http://wavedrom.com",
+  "author": "alex.drom@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drom/wavedrom.git"
+  },
+  "bugs": {
+    "url": "https://github.com/drom/wavedrom/issues"
+  },
+  "main": "./lib",
+  "files": [
+    "wavedrom.js",
+    "wavedrom.min.js",
+    "LICENSE",
+    "lib/**",
+    "skins/**"
+  ],
+  "scripts": {
+    "test": "grunt"
+  },
+  "keywords": [
+    "waveform",
+    "verilog",
+    "RTL"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-eslint": "^19.0.0",
+    "js-beautify": "^1.6.3",
+    "jsof": "^0.2.1",
+    "yargs": "^4.8.1"
+  },
+  "dependencies": {
+    "onml": "^0.3.1",
+    "tspan": "^0.1.4"
+  }
+}

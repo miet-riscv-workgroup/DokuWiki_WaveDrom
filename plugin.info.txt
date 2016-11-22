@@ -1,0 +1,7 @@
+base   wavedrom
+author Evgeni Primakov
+email  conf@confusion.su
+date   2016-11-21
+name   wavedrom plugin
+desc   Adds "WaveDrom" waveform rendering engine functionality
+url    http://risc-v.ru
