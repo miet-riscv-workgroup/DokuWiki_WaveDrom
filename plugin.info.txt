@@ -1,4 +1,4 @@
-base   dw_wavedrom
+base   wavedromdw
 author Evgeni Primakov
 email  conf@confusion.su
 date   2016-11-21
